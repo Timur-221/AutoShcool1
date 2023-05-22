@@ -21,7 +21,7 @@
                     </StackPanel>
                 </Border>
             </StackPanel>
-            <ma:PackIconMaterial Kind="Book" Width="50" Height="50" Margin="698,72,0,0"/>
+            <ma:PackIconMaterial Kind="Book" Width="50" Height="50" Margin="698,72,0,0" MouseDown="TerNav1"/>
             <StackPanel>
                 <Border Background="AliceBlue" Width="728" Height="80" Margin="25,155,25,0" CornerRadius="25">
                     <StackPanel>
@@ -30,7 +30,7 @@
                     </StackPanel>
                 </Border>
             </StackPanel>
-            <ma:PackIconMaterial Kind="FileDocument" Width="50" Height="50" Margin="698,165,0,0"/>
+            <ma:PackIconMaterial Kind="FileDocument" Width="50" Height="50" Margin="698,165,0,0" MouseDown="TerNav2"/>
             <StackPanel>
                 <Border Background="AliceBlue" Width="730" Height="80" Margin="25,257,25,0" CornerRadius="25">
                     <StackPanel>
@@ -39,7 +39,7 @@
                     </StackPanel>
                 </Border>
             </StackPanel>
-            <ma:PackIconMaterial Kind="TrafficLightOutline" Height="60" Width="62" Margin="692,268,0,0"/>
+            <ma:PackIconMaterial Kind="TrafficLightOutline" Height="60" Width="62" Margin="692,268,0,0" MouseDown="WebPDD"/>
         </Grid>
 
         <Grid Margin="0,344,0,-49">

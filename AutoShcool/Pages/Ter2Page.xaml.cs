@@ -16,18 +16,18 @@ using System.Windows.Shapes;
 namespace AutoShcool.Pages
 {
     /// <summary>
-    /// Interaction logic for ProfPage.xaml
+    /// Interaction logic for Ter2Page.xaml
     /// </summary>
-    public partial class ProfPage : Page
+    public partial class Ter2Page : Page
     {
-        public ProfPage()
+        public Ter2Page()
         {
             InitializeComponent();
         }
 
-        private void AccNav(object sender, MouseButtonEventArgs e)
+        private void PDDNavBack1(object sender, MouseButtonEventArgs e)
         {
-            NavigationService.Navigate(new AccStud());
+            NavigationService.Navigate(new PDDPage());
         }
     }
 }

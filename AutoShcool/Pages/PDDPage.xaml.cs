@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -33,6 +34,35 @@ namespace AutoShcool.Pages
         private void ProfNav(object sender, MouseButtonEventArgs e)
         {
             NavigationService.Navigate(new ProfPage());
+        }
+
+        private void TerNav1(object sender, MouseButtonEventArgs e)
+        {
+            NavigationService.Navigate(new Ter1Page());
+        }
+
+        private void TerNav2(object sender, MouseButtonEventArgs e)
+        {
+            NavigationService.Navigate(new Ter2Page());
+        }
+
+        private void WebPDD(object sender, MouseButtonEventArgs e)
+        {
+            string pddUrl = "http://www.pdd24.com/";
+
+            try
+            {
+                Process.Start(new ProcessStartInfo
+                {
+                    FileName = pddUrl,
+                    UseShellExecute = true
+                });
+            }
+            catch (Exception ex)
+            {
+                // Обработка ошибки
+                MessageBox.Show($"Ошибка при открытии URL-адреса: {ex.Message}");
+            }
         }
     }
 }

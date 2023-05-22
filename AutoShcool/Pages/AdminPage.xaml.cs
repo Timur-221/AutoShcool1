@@ -16,18 +16,13 @@ using System.Windows.Shapes;
 namespace AutoShcool.Pages
 {
     /// <summary>
-    /// Interaction logic for ProfPage.xaml
+    /// Interaction logic for AdminPage.xaml
     /// </summary>
-    public partial class ProfPage : Page
+    public partial class AdminPage : Page
     {
-        public ProfPage()
+        public AdminPage()
         {
             InitializeComponent();
-        }
-
-        private void AccNav(object sender, MouseButtonEventArgs e)
-        {
-            NavigationService.Navigate(new AccStud());
         }
     }
 }
